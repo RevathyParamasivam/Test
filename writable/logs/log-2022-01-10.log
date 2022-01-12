@@ -1,0 +1,66 @@
+CRITICAL - 2022-01-10 23:56:14 --> Class "App\Models\Main_Model\BaseController" not found
+#0 C:\xampp\htdocs\Swagger_App\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\Swagger_App\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Swagger_App\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Swagger_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-10 23:56:47 --> Unknown column 'user_name' in 'where clause'
+CRITICAL - 2022-01-10 23:56:47 --> Unknown column 'user_name' in 'where clause'
+#0 C:\xampp\htdocs\Swagger_App\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Swagger_App\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Swagger_App\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Swagger_App\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Swagger_App\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Swagger_App\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Swagger_App\app\Controllers\Home.php(38): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Swagger_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-10 23:57:33 --> Table 'firsttable.user_login' doesn't exist
+CRITICAL - 2022-01-10 23:57:33 --> Table 'firsttable.user_login' doesn't exist
+#0 C:\xampp\htdocs\Swagger_App\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Swagger_App\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Swagger_App\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Swagger_App\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Swagger_App\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Swagger_App\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Swagger_App\app\Controllers\Home.php(38): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Swagger_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-10 23:59:41 --> Table 'firsttable.user_login' doesn't exist
+CRITICAL - 2022-01-10 23:59:41 --> Table 'firsttable.user_login' doesn't exist
+#0 C:\xampp\htdocs\Swagger_App\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Swagger_App\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Swagger_App\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Swagger_App\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Swagger_App\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Swagger_App\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Swagger_App\app\Controllers\Home.php(38): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Swagger_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-10 23:59:49 --> Table 'firsttable.user_login' doesn't exist
+CRITICAL - 2022-01-10 23:59:49 --> Table 'firsttable.user_login' doesn't exist
+#0 C:\xampp\htdocs\Swagger_App\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Swagger_App\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Swagger_App\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Swagger_App\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Swagger_App\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Swagger_App\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Swagger_App\app\Controllers\Home.php(38): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\Swagger_App\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Swagger_App\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
